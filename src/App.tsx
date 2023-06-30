@@ -1,5 +1,7 @@
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
+import Wrapper from "./container/wrapper";
+
 const theme = extendTheme({
   config: {
     initialColorMode: "dark",
@@ -7,7 +9,11 @@ const theme = extendTheme({
 });
 
 function App() {
-  return <ChakraProvider theme={theme}></ChakraProvider>;
+  return (
+    <ChakraProvider theme={theme}>
+      <Wrapper />
+    </ChakraProvider>
+  );
 }
 
 export default App;

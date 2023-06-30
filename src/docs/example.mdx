@@ -1,0 +1,19 @@
+import { Mermaid } from "mdx-mermaid/Mermaid";
+
+export const meta = {
+  title: "Example",
+  lastEdited: new Date().toISOString(),
+};
+
+# Example
+
+test
+
+<Mermaid
+  chart={`graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+`}
+/>
