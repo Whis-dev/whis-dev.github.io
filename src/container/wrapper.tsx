@@ -1,11 +1,11 @@
-import Example from "../docs/example.mdx";
+import Example from '../docs/example.mdx';
 
 const Wrapper = () => {
-  return (
-    <>
-      <Example />
-    </>
-  );
+	return (
+		<div className='mdx-content'>
+			<Example />
+		</div>
+	);
 };
 
 export default Wrapper;

@@ -1,8 +1,8 @@
-import { Mermaid } from "mdx-mermaid/Mermaid";
+import { Mermaid } from 'mdx-mermaid/Mermaid';
 
 export const meta = {
-  title: "Example",
-  lastEdited: new Date().toISOString(),
+	title: 'Example',
+	lastEdited: new Date().toISOString(),
 };
 
 # Example
@@ -10,10 +10,14 @@ export const meta = {
 test
 
 <Mermaid
-  chart={`graph TD;
+	chart={`graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
 `}
 />
+
+```js
+console.log('test');
+```
