@@ -1,11 +1,7 @@
-import Example from '../docs/example.mdx';
+import { Container } from '@chakra-ui/react';
 
 const Wrapper = () => {
-	return (
-		<div className='mdx-content'>
-			<Example />
-		</div>
-	);
+	return <Container></Container>;
 };
 
 export default Wrapper;
